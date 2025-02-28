@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads Tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <label class="labelContainer">Your Link Extractor:</label>
+
+    <div>
+        <button class="containerBtn" id="downloadLinks">DOWNLOAD</button>
+        <button class="containerBtn" id="highlightLinks">Highlight Links</button>
+    </div>
+    
+    <div class="LinkCountContainer">   
+        <div class="followLinkCount" id="followLinkContainer">
+            <p class="collectLinkCount greenFollowBox" id="followLinkCount"></p>
+            <p class="linkTitle greenFollow" id="followLinkTitle">Follow Links</p>
+        </div>
+        
+        <div class="followLinkCount" id="noFollowLinkContainer">
+            <p class="collectLinkCount redNoFollowBox" id="noFollowLinkCount"></p>
+            <p class="linkTitle redNoFollow" id="noFollowLinkTitle">noFollow Links</p>
+        </div>   
+    </div>
+    
+    <ul class="listOfLinks greenFollowtext" id="listOfFollowLinks"></ul>
+    <ul class="listOfLinks redFollowtext" id="listOfNoFollowLinks"></ul>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

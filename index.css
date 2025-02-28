@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    min-height: 150px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+label {
+    color: #00aa00;
+    font-weight: 900;
+    font-size: large;
+}
+
+.inputBox:focus {
+    border: 2px solid #00aa00;
+}
+
+.containerBtn {
+    background-color: #00aa00;
+    border: 1px solid #00aa00;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    min-width: 8rem;
+    width: auto;
+    margin: 4px 4px;
+    border-radius: 10px;
+}
+
+.containerBtn:hover {
+    background-color: white;
+    border: 1px solid #00aa00;
+    color: #00aa00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.extractedDomain {
+    margin: 4px;
+    color: #00aa00;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.listOfLinks {
+    color:blue;
+    list-style: none;
+    font-size: 13px;
+}
+
+.LinkCountContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.followLinkCount {
+    display: flex;
+    flex-flow: row;
+    margin-left: 10px;
+}
+
+.collectLinkCount {
+    min-width: 20px;
+    width: auto;
+    height: 20px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+}
+
+.linkTitle {
+    color: #5f9341;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.greenFollow {
+    color: #00aa00;
+}
+
+.redNoFollow {
+    color: #ff2c2c;
+}
+
+.greenFollowBox {
+    border: 2px solid #00aa00;
+}
+
+.redNoFollowBox {
+    border: 2px solid #ff2c2c;
+}
+
+.greenFollowtext {
+    color: #00aa00;
+}
+
+.redFollowtext {
+    color: #ff2c2c;
+}
