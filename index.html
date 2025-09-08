@@ -24,10 +24,29 @@
             <p class="collectLinkCount redNoFollowBox" id="noFollowLinkCount"></p>
             <p class="linkTitle redNoFollow" id="noFollowLinkTitle">noFollow Links</p>
         </div>   
+
+        <div class="followLinkCount" id="externalLinkContainer">
+        <p class="collectLinkCount blueExternalBox" id="externalLinkCount"></p>
+        <p class="linkTitle blueExternal" id="externalLinkTitle">External Links</p>
+        </div>
+
+        <div class="followLinkCount" id="internalLinkContainer">
+        <p class="collectLinkCount yellowInternalBox" id="internalLinkCount"></p>
+        <p class="linkTitle yellowInternal" id="internalLinkTitle">Internal Links</p>
+        </div>
+
+        <div class="followLinkCount" id="brokenLinkContainer">
+        <p class="collectLinkCount grayBrokenBox" id="brokenLinkCount"></p>
+        <p class="linkTitle grayBroken" id="brokenLinkTitle">Broken Links</p>
+        </div>
+
     </div>
     
     <ul class="listOfLinks greenFollowtext" id="listOfFollowLinks"></ul>
     <ul class="listOfLinks redFollowtext" id="listOfNoFollowLinks"></ul>
+    <ul class="listOfLinks blueExternalText" id="listOfExternalLinks"></ul>
+    <ul class="listOfLinks yellowInternalText" id="listOfInternalLinks"></ul>
+    <ul class="listOfLinks grayBrokenText" id="listOfBrokenLinks"></ul>
 
     <script type="module" src="index.js"></script>
 </body>
